@@ -94,11 +94,7 @@ def generate_data(num_entries):
             "outlier": outlier
         })
     return data
-
-# Generate 500 entries
 data = generate_data(500)
-
-# Create a DataFrame from the generated data
 df = pd.DataFrame(data)
 
 # Save the DataFrame to an Excel file
